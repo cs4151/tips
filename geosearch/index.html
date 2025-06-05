@@ -161,8 +161,8 @@
         }
         //loadGeoJSON(<URL>);
         //Geo search
-        const searchControl = new GeoSearchControl({
-            provider: new OpenStreetMapProvider(),
+        const searchControl = new GeoSearch.GeoSearchControl({
+            provider: new GeoSearch.OpenStreetMapProvider(),
         });
         map.addControl(searchControl);
 
