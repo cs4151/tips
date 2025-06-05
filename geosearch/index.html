@@ -163,6 +163,8 @@
         //Geo search
         const searchControl = new GeoSearch.GeoSearchControl({
             provider: new GeoSearch.OpenStreetMapProvider(),
+            style: "bar",
+            searchlabel: "Adresse suchen"
         });
         map.addControl(searchControl);
 
